@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "icd341-tools"
+version = "0.1.0"
+description = "Utility functions for ICD341 statistical computing"
+requires-python = ">=3.12"
+dependencies = ["numpy"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
