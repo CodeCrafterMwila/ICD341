@@ -28,3 +28,7 @@ Thumbs.db
 
 # Temporary notebook backup
 labs/ICD341_Lab05_BACKUP.ipynb
+# Exclude unnecessary raw FAOSTAT files
+ICD341_Capstone/data/raw/*.zip
+ICD341_Capstone/data/raw/extracted/*
+!ICD341_Capstone/data/raw/extracted/Production_Crops_Livestock_E_Africa.csv
