@@ -22,3 +22,9 @@ env/
 *.log
 .DS_Store
 Thumbs.db
+# Local AI assistant and environment configuration
+.agents/
+.claude/
+
+# Temporary notebook backup
+labs/ICD341_Lab05_BACKUP.ipynb
