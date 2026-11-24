@@ -22,15 +22,15 @@ def load_data():
 def analyse_data(df):
     """Calculate descriptive statistics for maize production."""
 
-    print("\nMAIZE PRODUCTION STATISTICS - analysis.py:25")
+    print("\nMAIZE PRODUCTION STATISTICS")
     print("")
 
-    print("Mean: - analysis.py:28", df["Maize_Production"].mean())
-    print("Standard Deviation: - analysis.py:29", df["Maize_Production"].std())
-    print("Minimum: - analysis.py:30", df["Maize_Production"].min())
-    print("Maximum: - analysis.py:31", df["Maize_Production"].max())
+    print("Mean:", df["Maize_Production"].mean())
+    print("Standard Deviation:", df["Maize_Production"].std())
+    print("Minimum:", df["Maize_Production"].min())
+    print("Maximum:", df["Maize_Production"].max())
 
-    print("\nComplete Statistical Summary: - analysis.py:33")
+    print("\nComplete Statistical Summary:")
     print(df.describe())
 
 
@@ -60,7 +60,7 @@ def create_histogram(df):
     plt.show()
     plt.close()
 
-    print("\nHistogram saved to: - analysis.py:63", output_file)
+    print("\nHistogram saved to:", output_file)
 
 
 def main():

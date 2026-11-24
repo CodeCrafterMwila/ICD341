@@ -1,18 +1,14 @@
 # Maize Production Statistical Analysis
 
-## Project Overview
+## 1. Project Overview
 
-This project demonstrates the application of statistical
-computing techniques using a simulated maize production dataset.
+This project demonstrates the application of statistical computing techniques using a simulated maize production dataset.
 
-The project uses Python, NumPy, Pandas and Matplotlib to
-generate data, calculate descriptive statistics and visualise
-the distribution of maize production.
+Python, NumPy, Pandas and Matplotlib are used to generate data, calculate descriptive statistics and visualise the distribution of maize production.
 
-## Dataset
+## 2. Dataset
 
-The dataset contains 100 randomly generated maize production
-observations using a normal distribution.
+The dataset contains 100 randomly generated maize production observations using a normal distribution.
 
 - Mean used for generation: 5 tonnes
 - Standard deviation used for generation: 1.2 tonnes
@@ -21,7 +17,7 @@ observations using a normal distribution.
 
 The dataset is stored in `data/maize_data.csv`.
 
-## Statistical Analysis
+## 3. Statistical Analysis
 
 The analysis calculates:
 
@@ -29,18 +25,19 @@ The analysis calculates:
 - Standard deviation
 - Minimum
 - Maximum
-- Descriptive statistical summary
+- Complete descriptive statistical summary
 
-## Visualisation
+The analysis is implemented in `src/analysis.py`.
 
-A histogram is generated to illustrate the distribution
-of maize production observations.
+## 4. Visualisation
 
-The histogram is saved in:
+A histogram is generated to illustrate the distribution of maize production observations.
+
+The resulting image is saved in:
 
 `outputs/maize_histogram.png`
 
-## Project Structure
+## 5. Project Structure
 
 ```text
 Maize_Production_Project/
@@ -54,3 +51,34 @@ Maize_Production_Project/
 │   └── maize_histogram.png
 ├── README.md
 └── requirements.txt
+```
+
+## 6. Installation
+
+Install the required dependencies using:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+## 7. Running the Analysis
+
+From the project root directory, execute:
+
+```bash
+python src/analysis.py
+```
+
+The script loads the dataset, calculates descriptive statistics and generates the histogram.
+
+## 8. Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+## 9. Conclusion
+
+This project demonstrates reproducible data generation, statistical analysis, data visualisation and basic Python project organisation.

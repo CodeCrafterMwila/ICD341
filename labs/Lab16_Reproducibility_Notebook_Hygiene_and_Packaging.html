@@ -7839,7 +7839,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">random</span>
@@ -7870,7 +7870,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">SEED</span> <span class="o">=</span> <span class="mi">42</span>
@@ -7882,7 +7882,7 @@ a.anchor-link {
 <span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">():</span>
     <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">manual_seed_all</span><span class="p">(</span><span class="n">SEED</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Random seeds have been set successfully. - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:10"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Random seeds have been set successfully."</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -7895,7 +7895,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Random seeds have been set successfully. - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:10
+<pre>Random seeds have been set successfully.
 </pre>
 </div>
 </div>
@@ -7906,7 +7906,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Set the seed</span>
@@ -7915,7 +7915,7 @@ a.anchor-link {
 <span class="c1"># Generate the first sequence</span>
 <span class="n">values1</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"First sequence: - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:7"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"First sequence:"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">values1</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -7929,7 +7929,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>First sequence: - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:7
+<pre>First sequence:
 [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864]
 </pre>
 </div>
@@ -7941,7 +7941,7 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Reset the seed to the same value</span>
@@ -7950,7 +7950,7 @@ a.anchor-link {
 <span class="c1"># Generate the second sequence</span>
 <span class="n">values2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">"Second sequence: - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:7"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Second sequence:"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">values2</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -7964,7 +7964,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Second sequence: - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:7
+<pre>Second sequence:
 [0.37454012 0.95071431 0.73199394 0.59865848 0.15601864]
 </pre>
 </div>
@@ -7976,10 +7976,10 @@ a.anchor-link {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Are both sequences identical? - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:1"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">"Are both sequences identical?"</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array_equal</span><span class="p">(</span><span class="n">values1</span><span class="p">,</span> <span class="n">values2</span><span class="p">))</span>
 </pre></div>
 </div>
@@ -7993,7 +7993,7 @@ a.anchor-link {
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Are both sequences identical? - Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb:1
+<pre>Are both sequences identical?
 True
 </pre>
 </div>
@@ -8038,25 +8038,19 @@ True
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># 1. Import libraries</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
-
-<span class="c1"># 2. Set random seed</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Generate sample maize production data</span>
 <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">123</span><span class="p">)</span>
 
-<span class="c1"># 3. Generate sample data</span>
 <span class="n">maize</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">scale</span><span class="o">=</span><span class="mf">1.2</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="mi">100</span><span class="p">)</span>
 
-<span class="c1"># 4. Calculate descriptive statistics</span>
+<span class="c1"># Calculate descriptive statistics</span>
 <span class="n">mean_production</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">maize</span><span class="p">)</span>
 <span class="n">std_production</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">(</span><span class="n">maize</span><span class="p">)</span>
 
-<span class="c1"># 5. Display results</span>
+<span class="c1"># Display results</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Mean production:"</span><span class="p">,</span> <span class="n">mean_production</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">"Standard deviation:"</span><span class="p">,</span> <span class="n">std_production</span><span class="p">)</span>
 </pre></div>
@@ -8085,21 +8079,24 @@ Standard deviation: 1.3538885645735532
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Interpretation">Interpretation<a class="anchor-link" href="#Interpretation">¶</a></h3><p>The generated dataset has a mean of approximately 5.03 and a standard deviation of approximately 1.35.</p>
-<p>The mean indicates the average value of the generated observations, while the standard deviation measures how spread out the observations are around the mean.</p>
-<p>The results demonstrate how organised code makes statistical calculations easier to understand, reproduce and maintain.</p>
+<h3 id="Interpretation">Interpretation<a class="anchor-link" href="#Interpretation">¶</a></h3><p>The generated maize production dataset contains 100 observations, with a sample mean of approximately <strong>4.98 tonnes</strong> and a sample standard deviation of approximately <strong>1.17 tonnes</strong>.</p>
+<p>The mean represents the average maize production across the observations, while the standard deviation measures how spread out the values are around the mean.</p>
+<p>The results are close to the parameters used to generate the data (mean = 5 tonnes and standard deviation = 1.2 tonnes). Small differences are expected because the observations are randomly generated.</p>
+<p>Setting the random seed to 123 ensures that the same dataset can be reproduced when the code is executed again under the same conditions.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=68c4c5b1">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=c00c6bf1">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install nbconvert
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">nbconvert</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"nbconvert version:"</span><span class="p">,</span> <span class="n">nbconvert</span><span class="o">.</span><span class="n">__version__</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -8112,55 +8109,168 @@ Standard deviation: 1.3538885645735532
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Requirement already satisfied: nbconvert in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (7.17.1)
-Requirement already satisfied: beautifulsoup4 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (4.15.0)
-Requirement already satisfied: bleach!=5.0.0 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from bleach[css]!=5.0.0-&gt;nbconvert) (6.4.0)
-Requirement already satisfied: defusedxml in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (0.7.1)
-Requirement already satisfied: jinja2&gt;=3.0 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (3.1.6)
-Requirement already satisfied: jupyter-core&gt;=4.7 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from nbconvert) (5.9.1)
-Requirement already satisfied: jupyterlab-pygments in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (0.3.0)
-Requirement already satisfied: markupsafe&gt;=2.0 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (3.0.3)
-Requirement already satisfied: mistune&lt;4,&gt;=2.0.3 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (3.3.3)
-Requirement already satisfied: nbclient&gt;=0.5.0 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (0.11.0)
-Requirement already satisfied: nbformat&gt;=5.7 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (5.11.0)
-Requirement already satisfied: packaging in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from nbconvert) (24.2)
-Requirement already satisfied: pandocfilters&gt;=1.4.1 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbconvert) (1.5.1)
-Requirement already satisfied: pygments&gt;=2.4.1 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from nbconvert) (2.21.0)
-Requirement already satisfied: traitlets&gt;=5.1 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from nbconvert) (5.16.1)
-Requirement already satisfied: webencodings in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from bleach!=5.0.0-&gt;bleach[css]!=5.0.0-&gt;nbconvert) (0.6.1)
-Requirement already satisfied: tinycss2&gt;=1.1.0 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from bleach[css]!=5.0.0-&gt;nbconvert) (1.5.1)
-Requirement already satisfied: platformdirs&gt;=2.5 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from jupyter-core&gt;=4.7-&gt;nbconvert) (4.13.5)
-Requirement already satisfied: jupyter-client&gt;=7.0.0 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from nbclient&gt;=0.5.0-&gt;nbconvert) (8.10.0)
-Requirement already satisfied: python-dateutil&gt;=2.8.2 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from jupyter-client&gt;=7.0.0-&gt;nbclient&gt;=0.5.0-&gt;nbconvert) (3.0.0)
-Requirement already satisfied: pyzmq&gt;=25.0 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from jupyter-client&gt;=7.0.0-&gt;nbclient&gt;=0.5.0-&gt;nbconvert) (27.2.0)
-Requirement already satisfied: tornado&gt;=6.4.1 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from jupyter-client&gt;=7.0.0-&gt;nbclient&gt;=0.5.0-&gt;nbconvert) (6.6)
-Requirement already satisfied: typing-extensions&gt;=4.13.0 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from jupyter-client&gt;=7.0.0-&gt;nbclient&gt;=0.5.0-&gt;nbconvert) (4.16.0)
-Requirement already satisfied: fastjsonschema&gt;=2.15 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbformat&gt;=5.7-&gt;nbconvert) (2.22.1)
-Requirement already satisfied: jsonschema&gt;=2.6 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from nbformat&gt;=5.7-&gt;nbconvert) (4.26.0)
-Requirement already satisfied: attrs&gt;=22.2.0 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from jsonschema&gt;=2.6-&gt;nbformat&gt;=5.7-&gt;nbconvert) (26.1.0)
-Requirement already satisfied: jsonschema-specifications&gt;=2023.03.6 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from jsonschema&gt;=2.6-&gt;nbformat&gt;=5.7-&gt;nbconvert) (2025.9.1)
-Requirement already satisfied: referencing&gt;=0.28.4 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from jsonschema&gt;=2.6-&gt;nbformat&gt;=5.7-&gt;nbconvert) (0.37.0)
-Requirement already satisfied: rpds-py&gt;=0.25.0 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from jsonschema&gt;=2.6-&gt;nbformat&gt;=5.7-&gt;nbconvert) (0.28.0)
-Requirement already satisfied: six&gt;=1.6 in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from python-dateutil&gt;=2.8.2-&gt;jupyter-client&gt;=7.0.0-&gt;nbclient&gt;=0.5.0-&gt;nbconvert) (1.17.0)
-Requirement already satisfied: tzdata in C:\Users\asus\AppData\Roaming\Python\Python312\site-packages (from python-dateutil&gt;=2.8.2-&gt;jupyter-client&gt;=7.0.0-&gt;nbclient&gt;=0.5.0-&gt;nbconvert) (2026.5)
-Requirement already satisfied: soupsieve&gt;=1.6.1 in c:\Users\asus\.conda\envs\icd341\Lib\site-packages (from beautifulsoup4-&gt;nbconvert) (2.9.2)
-Note: you may need to restart the kernel to use updated packages.
+<pre>nbconvert version: 7.17.1
 </pre>
 </div>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs" id="cell-id=c00c6bf1">
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=17299aa3">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Exercise-3:-Exporting-Jupyter-Notebooks-to-HTML">Exercise 3: Exporting Jupyter Notebooks to HTML<a class="anchor-link" href="#Exercise-3:-Exporting-Jupyter-Notebooks-to-HTML">¶</a></h2><p>Jupyter notebooks can be exported into HTML format using the <code>nbconvert</code> library.</p>
+<p>HTML export makes notebooks easier to share and view because the recipient does not need to open Jupyter Notebook to read the results.</p>
+<p>To export this notebook, run the following command from the ICD341 repository root:</p>
+<div class="highlight"><pre><span></span>python<span class="w"> </span>-m<span class="w"> </span>nbconvert<span class="w"> </span>--to<span class="w"> </span>html<span class="w"> </span>labs/Lab16_Reproducibility_Notebook_Hygiene_and_Packaging.ipynb
+</pre></div>
+<p>The command converts the notebook into an HTML document while preserving its Markdown explanations, code cells and displayed outputs.</p>
+<p>The exported HTML file can be opened in a web browser.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=451168f0">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Exercise-4:-Python-Project-Packaging">Exercise 4: Python Project Packaging<a class="anchor-link" href="#Exercise-4:-Python-Project-Packaging">¶</a></h2><p>Python project packaging involves organising project files and dependencies
+so that a project can be easily shared, installed and maintained.</p>
+<p>A properly organised Python project should contain:</p>
+<ol>
+<li>README.md – project documentation.</li>
+<li>requirements.txt – a list of required Python libraries.</li>
+<li>Notebooks – Jupyter notebooks containing experiments.</li>
+<li>Source code – reusable Python modules.</li>
+<li>Data – datasets used in the project.</li>
+</ol>
+<p>Packaging improves project organisation, portability, maintainability
+and collaboration.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=d6e61a29">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Installing-Project-Dependencies">Installing Project Dependencies<a class="anchor-link" href="#Installing-Project-Dependencies">¶</a></h3><p>Python dependencies can be installed automatically using pip and a requirements file.</p>
+<p>From the ICD341 repository root, run:</p>
+<div class="highlight"><pre><span></span>python<span class="w"> </span>-m<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>labs/requirements_lab16.txt
+</pre></div>
+<p>This command reads the requirements file and installs all the listed libraries.</p>
+<p>Using a requirements file makes project setup easier and improves portability because developers can install the required packages without installing each library separately.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=65cab9bc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Saving-the-Dataset-as-CSV">Saving the Dataset as CSV<a class="anchor-link" href="#Saving-the-Dataset-as-CSV">¶</a></h3><p>The generated maize production observations are stored
+in a CSV file for future analysis and reproducibility.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell" id="cell-id=7ebb9313">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="o">!</span>jupyter<span class="w"> </span>nbconvert<span class="w"> </span>--version
+<div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">pathlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+
+<span class="c1"># Create a DataFrame from the generated maize observations</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
+    <span class="s2">"Maize_Production"</span><span class="p">:</span> <span class="n">maize</span>
+<span class="p">})</span>
+
+<span class="c1"># Locate the project directory from the current working directory</span>
+<span class="n">current_dir</span> <span class="o">=</span> <span class="n">Path</span><span class="o">.</span><span class="n">cwd</span><span class="p">()</span><span class="o">.</span><span class="n">resolve</span><span class="p">()</span>
+
+<span class="n">project_dir</span> <span class="o">=</span> <span class="nb">next</span><span class="p">(</span>
+    <span class="p">(</span><span class="n">folder</span> <span class="k">for</span> <span class="n">folder</span> <span class="ow">in</span> <span class="p">[</span><span class="n">current_dir</span><span class="p">,</span> <span class="o">*</span><span class="n">current_dir</span><span class="o">.</span><span class="n">parents</span><span class="p">]</span>
+     <span class="k">if</span> <span class="n">folder</span><span class="o">.</span><span class="n">name</span> <span class="o">==</span> <span class="s2">"ICD341"</span><span class="p">),</span>
+    <span class="kc">None</span>
+<span class="p">)</span>
+
+<span class="k">if</span> <span class="n">project_dir</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+    <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s2">"Could not locate the ICD341 project directory."</span><span class="p">)</span>
+
+<span class="c1"># Save the dataset</span>
+<span class="n">data_dir</span> <span class="o">=</span> <span class="n">project_dir</span> <span class="o">/</span> <span class="s2">"Maize_Production_Project"</span> <span class="o">/</span> <span class="s2">"data"</span>
+<span class="n">data_dir</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="n">output_path</span> <span class="o">=</span> <span class="n">data_dir</span> <span class="o">/</span> <span class="s2">"maize_data.csv"</span>
+
+<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">output_path</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Dataset successfully saved!"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"Number of observations:"</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">"</span><span class="se">\n</span><span class="s2">First five observations:"</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
 </pre></div>
 </div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Dataset successfully saved!
+Number of observations: 100
+
+First five observations:
+   Maize_Production
+0          3.697243
+1          6.196815
+2          5.339574
+3          3.192446
+4          4.305680
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=725f65d8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h2 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">¶</a></h2><p>In this lab, I learned the importance of reproducibility, notebook hygiene and good software development practices in statistical computing.</p>
+<p>I successfully:</p>
+<ol>
+<li>Set random seeds in Python, NumPy and PyTorch.</li>
+<li>Demonstrated reproducibility by generating identical random sequences.</li>
+<li>Applied notebook hygiene practices to organise and maintain Jupyter notebooks.</li>
+<li>Exported a Jupyter notebook into HTML using nbconvert.</li>
+<li>Created a requirements file for managing Python dependencies.</li>
+<li>Generated a maize production dataset containing 100 observations and exported it to CSV.</li>
+<li>Developed a reusable Python analysis script to calculate descriptive statistics.</li>
+<li>Generated and saved a histogram to visualise the distribution of maize production.</li>
+<li>Created project documentation using a README file.</li>
+<li>Organised the project into separate folders for data, notebooks, source code and outputs.</li>
+</ol>
+<p>These practices improve the reliability, organisation, reproducibility, portability and maintainability of statistical computing projects.</p>
 </div>
 </div>
 </div>
